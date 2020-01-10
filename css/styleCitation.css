@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Spectral+SC');
+
+$gray: #2f3b46;
+$orange: #df5634;
+$light-orange: lighten($orange, 30%);
+$light-gray: lighten($gray, 50%);
+$dark-orange: darken($orange, 30%);
+$dark-gray: darken($gray, 15%);
+$white: lighten($gray, 70%);
+
+body {
+    background: $gray;
+    background-color: $dark-orange;
+    margin: 0px;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.quote {
+    font-family: Lora, sans-serif;
+    font-size: 2.5vw;
+    font-style: italic;
+    background-color: rbga(200, 200, 200, 0);
+    color: $light-orange;
+    position: absolute;
+    top: 40vh;
+    left: 40vh;
+}
+
+.quote .author {
+    text-align: right;
+    font-size: 3vw;
+    font-family: Spectral SC, serif;
+    font-style: normal;
+}
+
+.sky {
+    background-color: $gray;
+    background-image: 
+        radial-gradient(30vh 30vh at 90% 10%, $white 0%, $white 28%, $light-gray 30%, $light-gray 48%, transparent 50%, transparent 100%),
+        linear-gradient(to bottom, $gray 0%, $gray 40%, $dark-orange 80%);
+    height: 40vh;
+    width: 100%;
+    padding: 1%;
+    transition-property: height;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.ground {
+    background-color: $dark-gray;
+    height: 60vh;
+    width: 100%;
+    padding: 1%;
+    position: relative;
+}
+
+.mountains {
+    height: 20vw;
+    width: 300%;
+    padding: 1%;
+    background: linear-gradient(10deg, $orange 40vw, transparent 41vw), linear-gradient(-10deg, $orange 40vw, transparent 41vw);
+    background-size: 50vw 50vw;
+    animation: moveRight 20s linear infinite;
+}
+
+@keyframes moveRight {
+    0% { transform: translateX(-100vw); }
+    100% { transform: translateX(0vw); }
+}
+
+.ball {
+    background-color: $dark-gray;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    position: absolute;
+    top: -29vh;
+    left: 40vh;
+    animation: roll 4s linear infinite;
+}
+
+@keyframes roll {
+    0% { border-radius: 40% 50% 45% 48% }
+    45% { border-radius: 48% 40% 50% 45% }
+    50% { border-radius: 45% 48% 40% 50% }
+    95% { border-radius: 50% 45% 48% 40% }
+    100% { border-radius: 40% 50% 45% 48% }
+}
+
+.scarab {
+    background-color: $dark-gray;
+    height: 10vh;
+    width: 4vh;
+    border-radius: 10% 50% 50% 10%;
+    transform: rotateZ(-30deg);
+    position: absolute;
+    top: -9vh;
+    left: 70vh;
+    animation: push 1s ease-out infinite;
+}
+.scarab::before {
+    content: "";
+    background-color: $dark-gray;
+    height: 6vh;
+    width: .5vh;
+    transform: rotateZ(-40deg);
+    display: block;
+}
+.scarab::after {
+    content: "";
+    background-color: $dark-gray;
+    height: 3vh;
+    width: .5vh;
+    transform: rotateZ(40deg);
+    display: block;
+}
+
+@keyframes push {
+    0% { transform: rotateZ(-30deg); }
+    100% { transform: rotateZ(-50deg); }
+}
