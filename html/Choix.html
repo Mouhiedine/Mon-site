@@ -1,0 +1,99 @@
+<!DOCTYPE>
+<html>
+        <title> Faites un choix  </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="..\css\styleChoix.css">
+        <link rel="icon" href="../images/favicone.ico" />
+        <body>
+           
+            <a  href="..\Index.html"><i class="arrow left" id = "positionArrow"></i></a>
+          
+            <div class = "container">
+                <div class = "column active">
+                    <div class ="content">
+                        <h1>1</h1>
+                        <div class ="box">
+                            <h2> À mon propos</h2>
+                            <p> En cliquant ici, vous apprendrez à me découvrir, moi et mes passions.</p>
+                            <a class = "posbg1" href="Moi.html">
+                                <span> </span>
+                                <span> </span>
+                                <span> </span>
+                                <span> </span>
+                                suite
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class = "bg bg1"></div>
+                </div>
+
+                <div class = "column">
+                    <div class ="content">
+                        <h1>2</h1>
+                        <div class ="box">
+                            <h2> Scolarité</h2>
+                            <p> Dans cette page, vous decouvrirez les écoles dans lesquels j'ai réalisé ma scolarité et les projets sur lesquels j'ai travaillé.</p>
+                          <a class = "posbg1" href="Scolarité.html">
+                                <span> </span>
+                                <span> </span>
+                                <span> </span>
+                                <span> </span>
+                                suite
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "bg bg2"></div>
+                </div>
+
+                <div class = "column">
+                    <div class ="content">
+                        <h1>3</h1>
+                        <div class ="box">
+                            <h2> Experiences pro.</h2>
+                            <p> Ici, vous trouverez les entreprises dans lesquelles j'ai pu apporter ma contribution ainsi que les projets que j'y ai mené.</p>
+                            <a class = "posbg1" href="Experience.html">
+                                <span> </span>
+                                <span> </span>
+                                <span> </span>
+                                <span> </span>
+                                suite
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "bg bg3"></div>
+                </div>
+
+                <div class = "column">
+                    <div class ="content">
+                        <h1>4</h1>
+                        <div class ="box">
+                            <h2> Projets personnels</h2>
+                            <p> N'hésitez pas à venir décrouvrir mes différentes esquisses.</p>
+                            <a class = "posbg1" href="Projets.html">
+                                <span> </span>
+                                <span> </span>
+                                <span> </span>
+                                <span> </span>
+                                suite
+                            </a>
+                        </div>
+                    </div>
+                    <div class = "bg bg4"></div>
+                </div>
+
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+              <script type="text/javascript">
+
+                  $(document).on('mouseover','.container .column', function(){
+                    $(this).addClass('active').siblings().removeClass('active')
+                    })
+              </script>
+        </body>
+
+        
+    </head>
+    </html>

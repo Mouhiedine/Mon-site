@@ -1,0 +1,124 @@
+body, html, h1 {
+	margin : 0px;
+	padding : 0px;
+	overflow: hidden;
+}
+
+body{
+	font-family : helvetica;
+	background : url("../images/black-gradient.jpg")no-repeat;
+	background-size: cover;
+	color:white;
+}
+
+body,html{
+	width:100%;
+	height:100%;
+}
+
+/*Positioner les textbox */
+
+label{
+	display:block;
+	width:150px;
+	float:left;
+}
+
+
+/*Positionner tout le bloc de remarque */
+
+.PositionTotale{
+	position: absolute;
+    bottom: 15%;
+    left: 5%;
+    font-size: 18px;
+}
+
+/*style bouton d'envoi */
+
+.BoutonValidation{
+	color:white;
+	padding: 10px 50px;
+	font-size : 20px;
+	border : none;
+	cursor: pointer;
+	background:url(../images/boutonnoir.png) no-repeat
+}
+
+.BoutonValidation:hover, .BoutonValidation:focus {
+	color:#b30000;
+	background:url(../images/boutonnoir2.png) no-repeat
+}
+
+/* Style pour bouton inscription/contact/Connexion */
+
+.Inscriptionbouton {
+	display:block; /* Les liens deviennent des balises de type block */
+	position: absolute;
+	top: 8px;
+    right: 102px;
+    padding : 25px;
+	font-size : 25px;
+	color : #ffffff;
+	text-decoration: none;/* On enlève le surlignement des liens*/
+}
+
+/* On change la couleur quand on passe par dessus*/
+
+.Inscriptionbouton:hover, .Inscriptionbouton:focus {
+    color : #ff8533;
+}
+
+.Contactbouton{
+	display:block;
+	position: absolute;
+	top: 8px;
+    right: 2px;
+    padding : 25px;
+	font-size : 25px;
+	color : #ff8533;
+	text-decoration: none;
+}
+
+.Connexionbouton{
+	display:block;
+	position:absolute;
+	top: 8px;
+    right: 232px;
+    padding : 25px;
+	font-size : 25px;
+	color : #ffffff;
+	text-decoration: none;
+}
+
+.Connexionbouton:hover, .Connexionbouton:focus {
+    color : #ff8533;
+}
+
+.Accueilbouton{
+	display:block;
+	position:absolute;
+	top: 8px;
+    left: 0px;
+    padding : 25px;
+	font-size : 25px;
+	color : #ffffff;
+	text-decoration: none;
+}
+
+.Accueilbouton:hover, .Accueilbouton:focus {
+    color : #ff8533;
+}
+
+
+/* Positionnement icone idee*/
+
+.Idee{
+	border:15px solid;
+	border-image: linear-gradient(#000000,#737373,#d9d9d9,#737373,#000000) 30;
+	position: absolute;
+	width: 30%;
+	height: 60%;
+	margin-left : 60%;
+	margin-top: 10%;
+}
