@@ -1,0 +1,532 @@
+/* Ecran tablette/telephone */
+
+@media(max-width: 1110px)
+{
+
+  /* Position boutons choix ecole */
+
+  #ulBoxes ul
+  {
+    flex-direction: column;
+    display: inline-block;
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+  }
+
+  #ulBoxes ul li 
+  {
+    list-style: none;
+    margin: 60px 50px;
+  }
+
+
+  /* ktrium images et textes*/
+
+  .tailleImage{
+    position: absolute;
+    width: 45vw;
+    height: 45%;
+    transform: translate(-50%,-50%);
+  }
+
+  #positionEtiqueteuse1{
+    top : 74.5%;
+    left : 22.5%;
+  }
+
+  #positionEtiqueteuse2{
+    top : 74.5%;
+    left : 78.5%;
+  }
+
+  .tailleTexteEtiqueteuse{
+    position: absolute;
+    width: 90vw;
+    height: 72.5%;
+    text-align: center;
+    font-size: 1.6vh;
+  }
+
+  #positionTexteEtiqueteuse{
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+  }
+
+
+  /* Renault images et textes*/
+
+  .tailleTexteRenault{
+    position: absolute;
+    width: 90vw;
+    height: 72.5%;
+    font-size: 1.6vh;
+    
+  }
+  #positionTexteRenault{
+    top : 90%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .tailleImageKadjar{
+    position: absolute;
+    width: 70vw;
+    height: 40%;
+    transform: translate(-50%,-50%);
+  }
+
+  #positionKadjar{
+    top : 35%;
+    left :50%;
+  }
+
+   #positionCem{
+    top : 80%;
+    left : 72.5%;
+    opacity: 0;
+  }
+
+
+/* Rowenta  images et textes*/
+
+  .tailleTexteRowenta{
+    position: absolute;
+    width: 90vw;
+    height: 40%;
+    font-size: 1.6vh;
+  }
+
+  #positionTexteRowenta{
+    top : 32%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .tailleImageSerenity{
+    position: absolute;
+    width: 20vw;
+    max-width: 300px;
+    height: 80%;
+    transform: translate(-50%,-50%);
+
+  }
+
+  #positionSerenity{
+    top : 57.5%;
+    left : 15.5%;
+    opacity: 0;
+  }
+
+  .tailleImageDelta{
+    position: absolute;
+    width: 90vw;
+    max-width: 800px;
+    height: 30%;
+    transform: translate(-50%,-50%);
+    border-radius: 12px;
+
+  }
+
+  #positionDelta{
+    top : 80%;
+    left : 50%;
+  }
+
+
+  /* Rowenta 2 images et textes*/
+
+  .tailleTexteRowenta2{
+    position: absolute;
+    width: 90vw;
+    height: 40%;
+    font-size: 1.6vh;
+  }
+
+  #positionTexteRowenta2{
+    top : 32%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .tailleImageVersatile{
+    position: absolute;
+    width: 80vw;
+    height: 40%;
+    max-width: 800px;
+    transform: translate(-50%,-50%);
+  }
+
+  #positionVersatile{
+    top : 79.5%;
+    left : 50%;
+  }
+
+  #titrePrincipal{
+
+  top : 12.5%;
+  font-size: 3vh;
+  }
+}
+
+
+/* Ecran ordinateur */
+
+@media(min-width: 1111px)
+{
+
+  /* Position boutons choix ecole */
+
+  #ulBoxes ul
+  {
+    display: inline-flex;
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+  }
+
+  #ulBoxes ul li 
+  {
+    list-style: none;
+    margin: 0 15px;
+  }
+
+
+  /* ktrium images et textes*/
+
+  .tailleImage{
+    position: absolute;
+    width: 30vw;
+    height: 72.5%;
+    transform: translate(-50%,-50%);
+  }
+
+  #positionEtiqueteuse1{
+    top : 57.5%;
+    left : 17.5%;
+  }
+
+  #positionEtiqueteuse2{
+    top : 57.5%;
+    left : 82.5%;
+  }
+
+  .tailleTexteEtiqueteuse{
+    position: absolute;
+    width: 30vw;
+    height: 72.5%;
+    text-align: center;
+    font-size: 1.3vw;
+  }
+
+  #positionTexteEtiqueteuse{
+    top : 57.5%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  /* Renault images et textes*/
+
+  .tailleTexteRenault{
+    position: absolute;
+    width: 40vw;
+    height: 72.5%;
+    font-size: 1.3vw;
+    
+  }
+  #positionTexteRenault{
+    top : 65%;
+    left : 25%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .tailleImageKadjar{
+    position: absolute;
+    width: 40vw;
+    height: 40%;
+    transform: translate(-50%,-50%);
+  }
+
+  #positionKadjar{
+    top : 40%;
+    left : 72.5%;
+  }
+
+   #positionCem{
+    top : 80%;
+    left : 72.5%;
+  }
+
+
+/* Rowenta  images et textes*/
+
+  .tailleTexteRowenta{
+    position: absolute;
+    width: 60vw;
+    height: 40%;
+    font-size: 1.3vw;
+  }
+
+  #positionTexteRowenta{
+    top : 40.5%;
+    left : 60%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .tailleImageSerenity{
+    position: absolute;
+    width: 20vw;
+    max-width: 300px;
+    height: 80%;
+    transform: translate(-50%,-50%);
+  }
+
+  #positionSerenity{
+    top : 57.5%;
+    left : 15.5%;
+  }
+
+  .tailleImageDelta{
+    position: absolute;
+    width: 60vw;
+    max-width: 800px;
+    height: 30%;
+    transform: translate(-50%,-50%);
+    border-radius: 12px;
+  }
+
+  #positionDelta{
+    top : 80%;
+    left : 60%;
+  }
+
+
+  /* Rowenta 2 images et textes*/
+
+  .tailleTexteRowenta2{
+    position: absolute;
+    width: 55vw;
+    height: 40%;
+    font-size: 23px;
+  }
+
+  #positionTexteRowenta2{
+    top : 40.5%;
+    left : 35%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .tailleImageVersatile{
+    position: absolute;
+    width: 60vw;
+    height: 60%;
+    max-width: 800px;
+    transform: translate(-50%,-50%);
+  }
+
+  #positionVersatile{
+    top : 67.5%;
+    left : 65.5%;
+  }
+
+
+
+  #titrePrincipal{
+
+  top : 12.5%;
+  font-size: 37.5px;
+ 
+}
+}
+
+
+/* -------------------------------------------------------- */
+
+/* Gestion totale */
+
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Fond d'ecran */
+
+.s2{
+  background : linear-gradient(to left top, #cbcbcb, white );
+}
+
+.s3{
+   background : linear-gradient(to left top, #cbcbcb, white ); 
+}
+
+.s4{
+   background : linear-gradient(to left top, #cbcbcb, white ); 
+}
+
+.s5{
+   background : linear-gradient(to left top, #cbcbcb, white ); 
+}
+
+
+/* Police titre */
+
+.section h1{
+  display: block;
+  position: absolute;
+  
+  width: 100%;
+  text-align: center;
+}
+
+#titreSecondaire{
+
+  top : 2.5%;
+  font-size: 32.5px;
+ 
+}
+
+/* Mise en place des boxes de selection 1ere page */
+
+.boxes{
+  display : flex;
+}
+
+#ulBoxes ul
+{
+  position: absolute;
+  top : 50%;
+  left : 50%;
+  transform : translate(-50%,-50%);
+  margin : 0;
+  padding : 0;
+  z-index: 1;
+}
+
+#ulBoxes ul li  a .fa 
+{
+  font-size: 35px;
+  color: #333;
+  line-height: 80px;
+  transition: 0.5s;
+  padding-right: 14px;
+}
+
+#ulBoxes ul li a span
+{
+  padding : 0;
+  margin : 0;
+  position: absolute;
+  top: 30px;
+  color : #333;
+  letter-spacing: 4px ;
+  transition: 0.5s;
+} 
+
+#ulBoxes ul li a 
+{
+  text-decoration: none;
+  display : absolute;
+  display: block;
+  width: 230px;
+  height: 80px;
+  background: #fff;
+  text-align : left;
+  padding-left: 20px;
+  transform : rotate(-30deg) skewX(25deg) translate(0,0);
+  transition : 0.5s;
+  box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
+}
+
+#ulBoxes ul li a:before
+{
+  content: '';
+  position: absolute;
+  top : 10px;
+  left : -20px;
+  height: 100%;
+  width: 20px;
+  background : #b1b1b1;
+  transform: 0.5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+#ulBoxes ul li a:after
+{
+  content: '';
+  position: absolute;
+  bottom : -20px;
+  left : -10px;
+  height: 20px;
+  width: 100%;
+  background : #b1b1b1;
+  transform: 0.5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+
+#ulBoxes ul li a:hover
+{
+  transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+  box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+ }
+
+#ulBoxes ul li:hover .fa
+{
+  color :white;
+}
+#ulBoxes ul li:hover span
+{
+  color :white;
+}
+
+#ulBoxes ul li:hover a
+{
+  background : black;
+}
+
+#ulBoxes ul li:hover a:before
+{
+  background : black;
+}
+#ulBoxes ul li:hover a:after
+{
+  background: black;
+}
+
+
+
+/* Positionnement et animation des boutons de contact et sorti */
+
+
+
+.Retourbouton{
+  display:block;
+ 
+position: absolute;
+top: 8px;
+right : 25px;
+
+    padding : 25px;
+  font-size : 25px;
+  color : black;
+  text-decoration: none;
+}
+
+.Retourbouton:hover, .Retourbouton:focus {
+    color : #ff8533;
+}
+
+
