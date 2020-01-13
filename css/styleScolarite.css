@@ -239,11 +239,11 @@
     display: block;
     opacity: 1;
     width: 85vw;
-    height: 80%;
+    height: 85%;
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(210,210,210,1) 100%);
     border : .2vw solid black;
      position: absolute;
-    top : 48%;
+    top : 45%;
     left : 50%;
     transform: translate(-50%,-40%);
     z-index: 2;
@@ -569,6 +569,8 @@ p{
   color : #333;
   letter-spacing: 4px ;
   transition: 0.5s;
+
+
 } 
 
 #ulBoxes ul li a 
