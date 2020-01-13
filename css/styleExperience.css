@@ -222,7 +222,7 @@
     width: 30vw;
     height: 72.5%;
     text-align: center;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
   }
 
   #positionTexteEtiqueteuse{
@@ -237,7 +237,7 @@
     position: absolute;
     width: 40vw;
     height: 72.5%;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     
   }
   #positionTexteRenault{
@@ -269,9 +269,9 @@
 
   .tailleTexteRowenta{
     position: absolute;
-    width: 60vw;
+    width: 65vw;
     height: 40%;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
   }
 
   #positionTexteRowenta{
