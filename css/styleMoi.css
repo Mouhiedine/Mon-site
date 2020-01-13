@@ -684,6 +684,7 @@ p{
   color : #333;
   letter-spacing: 4px ;
   transition: 0.5s;
+  font-weight: bold
 } 
 
 #ulBoxes ul li a 
