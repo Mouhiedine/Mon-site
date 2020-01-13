@@ -262,7 +262,7 @@
 
   #cont1{
     top: 10%;
-    left: 35%;
+    left : 45%;
   }
 
   #cont2{
@@ -272,7 +272,7 @@
 
   #cont3{
     top: 70%;
-    left: 35%;
+    left : 45%;
   }
 
   .card {
@@ -340,7 +340,7 @@
   .competencesTexte{
     position: absolute;
     font-weight:bold;
-    font-size: 30px;
+    font-size: 2.5vh;
     transform:  translate(-50%,-50%);
     text-align: center;
     box-shadow: -1rem 0 1rem black;
@@ -352,21 +352,21 @@
     top : 17.5%;
     left : 80%;
     border : 3px solid #168E96 ;
-    width: 200px;
+    width: 20vh;
   }
 
   #itTexte{
     top : 50%;
-    left : 20%;
+    left : 12.5%;
     border : 3px solid #279616 ;
-    width: 250px;
+    width: 20vh;
   }
 
   #conceptionTexte{
     top : 80%;
     left : 80%;
     border : 3px solid #961616 ;
-    width: 250px;
+    width: 20vh;
   }
 
   /* Passions */
